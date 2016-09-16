@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ihandy.a2014011328.bigproject.Details">
+
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:orderInCategory="90"
+        android:title="share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/like"
+        android:icon="@drawable/grey_favorite"
+        android:orderInCategory="90"
+        android:title="like"
+        app:showAsAction="always" />
+</menu>

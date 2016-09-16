@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--<CheckBoxPreference-->
+            <!--android:key="checkbox_key"-->
+            <!--android:defaultValue="checkbox default value"-->
+            <!--android:summary="checkbox summary"-->
+            <!--android:title="checkbox title"-->
+            <!--/>-->
+    <SwitchPreference
+        android:key="s1"
+        android:defaultValue="true"
+        android:title="Entertainment"
+        />
+    <SwitchPreference
+        android:key="s2"
+        android:defaultValue="true"
+    android:title="Health"
+        />
+    <SwitchPreference
+        android:key="s3"
+        android:defaultValue="true"
+        android:title="National"
+        />
+    <SwitchPreference
+        android:key="s4"
+        android:defaultValue="true"
+        android:title="Sports"
+        />
+    <SwitchPreference
+        android:key="s5"
+        android:defaultValue="true"
+        android:title="Technology"
+        />
+    <SwitchPreference
+        android:key="s6"
+        android:defaultValue="true"
+        android:title="Top Stories"
+        />
+    <SwitchPreference
+        android:key="s7"
+        android:defaultValue="true"
+        android:title="World"
+        />
+
+</PreferenceScreen>
